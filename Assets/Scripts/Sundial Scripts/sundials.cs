@@ -1,16 +1,15 @@
 using UnityEngine;
+using TMPro;
 
-public class sundials : MonoBehaviour
+public class CurrencyManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public int sundial = 0;
+    public TMP_Text sundialText;
 
-    // Update is called once per frame
-    void Update()
+    public void AddSundial(int amount)
     {
-        
+        sundial += amount;
+
+        sundialText.text = sundial.ToString();
     }
 }
