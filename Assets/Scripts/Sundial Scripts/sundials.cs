@@ -1,15 +1,19 @@
+
 using UnityEngine;
 using TMPro;
 
-public class CurrencyManager : MonoBehaviour
+public class sundials : MonoBehaviour
 {
     public int sundial = 0;
-    public TMP_Text sundialText;
+    public TMP_Text sundialCounter;
 
     public void AddSundial(int amount)
     {
         sundial += amount;
 
-        sundialText.text = sundial.ToString();
+        if (sundialCounter != null)
+        {
+            sundialCounter.text = "Sundials: " + sundial;
+        }
     }
 }
