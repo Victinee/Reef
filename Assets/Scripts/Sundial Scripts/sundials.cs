@@ -13,7 +13,7 @@ public class sundials : MonoBehaviour
 
         if (sundialCounter != null)
         {
-            sundialCounter.text = "Sundials: " + sundial;
+            sundialCounter.text = "" + sundial;
         }
     }
 }

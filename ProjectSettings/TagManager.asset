@@ -2,13 +2,13 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - UI BG
   - Water
   - UI
   - 
@@ -41,3 +41,23 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 1011920575
+    locked: 0
+  - name: WalkInFront
+    uniqueID: 479456413
+    locked: 0
+  - name: Collision
+    uniqueID: 378488917
+    locked: 0
+  - name: Player
+    uniqueID: 1041088479
+    locked: 0
+  - name: WalkBehind
+    uniqueID: 916037745
+    locked: 0
+  - name: Decor
+    uniqueID: 2942946521
+    locked: 0
+  m_RenderingLayers:
+  - Default
