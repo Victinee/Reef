@@ -81,3 +81,7 @@ ExportedObj/
 .DS_Store
 *.swp
 *~
+
+# Tutorial templates
+Assets/LightingOptimizationTutorial/
+Assets/LightingOptimizationTutorial.meta
